@@ -100,7 +100,7 @@ $.getJSON("Ramallahzonesclip.json", function(RZ) {
         },
           onEachFeature: function(feature, layer) {
           layer.on('click', function(e) {
-            alert("Zone Name: " + feature.properties.NAME);
+            alert("Zone Name: " + feature.properties.BUSNIESS_N);
           });
         }
 
